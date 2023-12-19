@@ -10,7 +10,6 @@ public class MyApplication {
         File file = new File("/Users/a.khaimuldin/IdeaProjects/assignment1se2308/src/source");
         Scanner sc = new Scanner(file);
         Shape shape = new Shape();
-
         while (sc.hasNextLine()) {
             double x = sc.nextDouble();
             double y = sc.nextDouble();
